@@ -25,4 +25,14 @@ To debug in IntelliJ Idea, open the 'Maven Projects' tool window (View
 version = "2026.2"
 
 project {
+
+    subProject {
+        id("AllTests")
+        name = "Subproject for different kinds of tests"
+    }
+
+    subProject {
+        id("Packages")
+        name = "Subproject for packages"
+    }
 }
